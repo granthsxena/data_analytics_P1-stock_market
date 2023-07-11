@@ -20,11 +20,13 @@ The initial steps of the analysis involved data cleaning and preprocessing to en
 Descriptive Statistics: Descriptive statistics were calculated to provide an overview of the dataset. This included count, mean, standard deviation, minimum, quartiles, and maximum for each numerical column. The descriptive statistics help identify any outliers or unusual patterns in the data.
 Checking for Null Data: The dataset was checked for the presence of null values. It is important to ensure that the dataset does not contain missing values that could impact the accuracy of the analysis. Fortunately, no null values were found in the dataset.
 Checking for Duplicates: Duplicate entries in the dataset were identified based on the combination of the "Ticker" and "Date" columns. This step helps ensure the accuracy and uniqueness of the data. No duplicates were found in the dataset.
+
 Graphical Analysis
 
 To gain deeper insights into the stock price data, various graphs were generated using the Plotly Express library. The following graphs were created:
 
 Stock Price Trends
+
 Closing Price Over Time
 The line graph depicting the closing price over time for each company reveals the overall movement of the stock prices. Here are the key trends observed:
 
@@ -32,6 +34,7 @@ Apple (AAPL): The stock price of Apple shows a steady upward trend over the anal
 Microsoft (MSFT): Microsoft's stock price exhibits a similar upward trend, although with more fluctuations and occasional dips.
 Google (GOOG): Google's stock price demonstrates a relatively stable upward trend, with occasional spikes in value.
 Netflix (NFLX): Netflix's stock price exhibits significant volatility, with sharp increases and declines throughout the analyzed period.
+
 Moving Averages
 Moving averages were calculated for each company to identify potential trends and turning points in the stock prices. The moving average graphs reveal the following:
 
@@ -39,6 +42,7 @@ Apple (AAPL): The moving average lines for Apple indicate an overall upward tren
 Microsoft (MSFT): Microsoft's moving average lines also exhibit an upward trend, with occasional crossovers between the short-term and long-term moving averages.
 Google (GOOG): Similar to Apple and Microsoft, Google's moving average lines show an overall upward trend, with periodic crossovers between the short-term and long-term moving averages.
 Netflix (NFLX): Netflix's moving averages demonstrate significant fluctuations, indicating high volatility and less consistent trends compared to the other companies.
+
 Volatility Analysis
 The volatility graph illustrates the degree of price fluctuation for each company. Key observations include:
 
@@ -46,6 +50,7 @@ Apple (AAPL): The volatility of Apple's stock price is relatively low and stable
 Microsoft (MSFT): Microsoft exhibits moderate volatility, with periods of higher and lower volatility throughout the analyzed period.
 Google (GOOG): Google's stock price volatility remains relatively low and consistent, similar to Apple.
 Netflix (NFLX): Netflix demonstrates the highest volatility among the analyzed companies, with frequent periods of sharp price fluctuations.
+
 Correlation Analysis
 Correlation analysis was conducted to assess the relationship between Apple's stock price and that of other companies. Scatter plots with trendlines were used to visualize the correlation. The following observations were made:
 
@@ -60,6 +65,7 @@ Stock Price Trends: Apple, Microsoft, Google, and Netflix exhibit overall upward
 Moving Averages: Moving averages suggest potential trends and turning points in the stock prices. Crossovers between the short-term and long-term moving averages can indicate buy or sell signals. Apple, Microsoft, and Google show relatively consistent upward trends, while Netflix's stock price demonstrates higher volatility and less predictable patterns.
 Volatility Analysis: Apple and Google exhibit lower volatility compared to Microsoft and Netflix. Investors with a lower risk tolerance may find Apple and Google more suitable for their portfolios, while those comfortable with higher risk may consider Microsoft and Netflix as potential investment options.
 Correlation Analysis: Apple's stock price shows a strong positive correlation with Microsoft, indicating a tendency for the two stocks to move in a similar direction. The correlation with Netflix and Google appears to be positive but relatively weaker. Investors seeking to diversify their portfolios may find value in considering the correlation between these companies when making investment decisions.
+
 Recommendations
 
 Based on the analysis, the following recommendations are proposed:
@@ -67,6 +73,7 @@ Based on the analysis, the following recommendations are proposed:
 Investment Opportunities: Apple, Microsoft, and Google exhibit positive growth trends and strong correlations with each other. These companies may present potential investment opportunities. Further analysis, including fundamental analysis and market research, is recommended to validate these findings before making investment decisions.
 Risk Assessment: Microsoft and Netflix demonstrate higher volatility compared to Apple and Google. Investors should carefully assess their risk tolerance and diversify their portfolios accordingly. A balanced portfolio can help mitigate risk by including stocks with different risk profiles.
 Moving Average Strategies: Moving averages provide insights into potential trends and turning points in stock prices. Investors can explore using moving average crossovers as indicators for buy or sell signals. However, it is important to consider other factors, such as fundamental analysis and market conditions, to make well-informed investment decisions.
+
 Conclusion
 
 The analysis of the stock price data provides valuable insights into stock market trends, company performance, moving averages, volatility, and correlations between different companies. These insights can guide investment decisions, risk assessment, and the development of trading strategies. However, it is essential to note that stock market investments carry inherent risks, and further analysis, research, and consideration of external factors are crucial before making any investment decisions based solely on the provided analysis.
